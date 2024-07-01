@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 15px;
+      margin: 20px ;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: #D5E1EF;
+    }
+
+    body {
+      background-color: hsl(215, 81%, 73%);
+      font-family: sans-serif;
+    }
+
+    .card {
+      align-items: center;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      padding: 20px;
+      align-items: center;
+      border-radius: 20px;
+      margin: auto;
+      margin-top: 10%;
+      gap: 20px;
+    }
+
+    .card-code {
+      width: 90%;
+      margin: 0;
+      border-radius: 10px;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 20px;
+      margin: 0;
+      text-align: center;
+      width: 80%;
+    }
+
+    .info {
+      font-weight: lighter;
+      text-align: center;
+      width: 80%;
+      margin: 0;
+      color: #7D889E;
+      padding-bottom: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .card {
+        width: 80%;
+        margin-top: 20%;
+    }
+
+    .card-code {
+
+
+    }
+
+    .title {
+      font-size: 16px;
+    }
+
+    .info {
+      font-size: 15px;
+    }
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <img src="images/image-qr-code.png" class="card-code" alt="">
+
+    <h4 class="title">
+      Improve your front-end skills by building projects
+    </h4>
+    <p class="info">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+
+    </p>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Akintola tope akinfolarin</a>.
+  </div>
+</body>
+
+</html>
